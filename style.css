@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+  
+display: flex;
+justify-content: space-between;
+width: 90%;
+margin: 0 auto;
+ align-items: center;
+}
+header ul{
+ display: flex;
+list-style: none;
+
+
+}
+.logo h1{
+    color: rgb(199, 188, 174);
+}
+
+header{
+background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgb(90 75 63 / 80%) 100%), url(foto1.jpg);
+width: auto;
+
+
+}
+header ul li a{
+padding: 20px;
+display: inline-block; 
+text-decoration: none;
+color: rgb(218, 199, 177);
+}
+
+#sectionOne{
+background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgb(90 75 63 / 80%) 100%), url(foto1.jpg);;
+/* background-image:  url(foto1.jpg); */
+width: 100%;
+height: 700px;
+display: flex;   
+padding: 3rem;           
+justify-content: center;    
+  align-items: center;        
+  flex-direction: column;     
+  color: white;               
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+#sectionOne .boxText a{
+text-decoration: none;
+color: white;
+background-color:#F4623A;
+padding: 20px;
+margin-top: 20px;
+display: inline-block;
+border-radius:  100px;
+transition:1s ;
+
+}
+
+#sectionOne .boxText a:hover{
+background-color: #e73808;
+}
+
+ 
+.boxText h1{
+font-size: 4rem;
+}
+.boxText p{
+font-size: 1rem;
+}
+
+#sectionTwo .boxes{
+background-color: #e06442;
+width: 100%;
+height: 100%;
+padding: 2rem;
+color: azure;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+}
+
+
+.boxes p{
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-size:large;
+color: #dfd3d0;
+}
+
+#sectionTwo{
+    
+}
+#sectionTwo .boxes a{
+text-decoration: none;
+color: rgb(7, 7, 7);
+background-color:hsl(15, 17%, 95%);
+padding: 15px;
+margin-top: 15px;
+display: inline-block;
+border-radius:  100px;
+transition:1 ;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+font-size: large
+}
+
+
+#sectionTwo a:hover{
+    background: #d1c3c0;
+}
+
+#sectionTheree .all{
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem;
+}
+#sectionTheree h2{
+    display: flex;
+    justify-content: center;
+}
+
+#sectionTheree .all .theree{
+    font-size:large;
+}
+#sectionTheree .all .box3{
+    font-size: large;
+}
+
+#sectionTheree .all .div3{
+    font-size: large;
+}
+
+#sectionTheree .all 
